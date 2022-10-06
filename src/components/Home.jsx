@@ -55,7 +55,7 @@ function Home() {
             return
         }
 
-        setTimeout(() => window.location.reload(), 1000);
+        // setTimeout(() => window.location.reload(), 1000);
 
 
 
@@ -65,7 +65,7 @@ function Home() {
     }
 
     const removePostMockApi = (obj) => {
-        setTimeout(() => window.location.reload(), 200);
+        // setTimeout(() => window.location.reload(), 200);
         if (obj.target.classList.contains('btn__remove')) {
             axios.delete(`https://633005f6f5fda801f8d97d50.mockapi.io/cheluskina/${cheluskinaItems[obj.target.value].id}`);
             console.log('+');
