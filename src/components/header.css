@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+    background-color: rgb(206, 206, 182);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+}
+
+li:hover {
+    color: black;
+
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+}

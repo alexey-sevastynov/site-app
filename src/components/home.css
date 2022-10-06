@@ -1,0 +1,92 @@
+table {
+    margin: 0 auto;
+}
+
+th {
+    width: 150px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.tr__table {
+    font-size: 18px;
+}
+
+.btn {
+
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+
+    background-color: rgba(206, 206, 182, 0.502);
+}
+
+.btn:hover {
+    background-color: rgb(206, 206, 182);
+}
+
+.btn__red {
+    background-color: rgba(227, 0, 0, 0.61);
+}
+
+.btn__red:hover {
+    background-color: rgb(227, 0, 0);
+}
+
+input {
+    -webkit-appearance: none;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.remove {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn__remove {
+
+    width: 20px;
+    height: 20px;
+    border: none;
+
+    background-image: url('../../public/img/remove.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: unset;
+
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.btn__remove:hover {
+    transform: rotate(10deg);
+}
+
+.light__blue {
+    background-color: rgba(0, 145, 255, 0.501);
+}
+
+.light__blue th {
+    
+}
+
+.blue {
+    background-color: rgb(0, 145, 255);
+}
