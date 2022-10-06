@@ -59,13 +59,13 @@ function Home73() {
             return
         }
 
-        setTimeout(() => window.location.reload(), 200);
+        // setTimeout(() => window.location.reload(), 200);
         axios.post('https://633005f6f5fda801f8d97d50.mockapi.io/antonovicha73', obj73);
 
     }
 
     const removePostMockApi = (obj) => {
-        setTimeout(() => window.location.reload(), 200);
+        // setTimeout(() => window.location.reload(), 200);
         if (obj.target.classList.contains('btn__remove')) {
             axios.delete(`https://633005f6f5fda801f8d97d50.mockapi.io/antonovicha73/${antonovicha73Items[obj.target.value].id}`);
             console.log('+');
